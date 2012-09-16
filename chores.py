@@ -53,7 +53,7 @@ print 'Ezra: feed and water the cat'
 if dayofweek in (6,3):
   print 'Ezra: dump litter; clear litter; add new litter; clean around litter'
 else:
-  print 'Ezra: scoop the litter; sweep if needed'
+  print 'Ezra: scoop the litter; sweep if needed, double check!'
 
 
 # --------------------------------------------------------------------------------
