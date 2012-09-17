@@ -50,7 +50,7 @@ print
 print 'Ezra: do the water chore'
 print 'Ezra: feed and water the cat'
 
-if dayofweek in (6,3):
+if dayofweek in (3,6):
   print 'Ezra: dump litter; clear litter; add new litter; clean around litter'
 else:
   print 'Ezra: scoop the litter; sweep if needed, double check!'
@@ -63,8 +63,9 @@ if dayofweek != 6:
   print 'Ezra: sweep the living room and dining room'
   print 'Ezra: scrub the living room and dining room as needed'
   print 'Eli : sweep the kitchen'
+  print' Eli: do the bathroom'
   print 'Eli : scrub the kitchen'
-else:
+else:   
   print 'Ezra: sweep the living room and dining room, but only if needed'
   print 'Ezra: scrub the living room and dining room, but only if needed'
   print 'Eli : sweep the kitchen, but only if needed'
