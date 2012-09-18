@@ -92,19 +92,22 @@ print
 # --------------------------------------------------------------------------------
 # This is the sweeping chore
 
+print "----- This is the sweeping Chore -----"
+
 if dayofweek != Day.Sun: 
   print 'Ezra: sweep the living room and dining room'
   print 'Ezra: scrub the living room and dining room as needed'
   print 'Eli : sweep the kitchen'
-  print 'Eli : scrub the kitchen'
-  print 'Zech: clean the  living room and dining room; but only if needed'
-  print 'Zech: do the trash chore'
+  print 'Zech: clean the  living room and dining room; do them again as needed all day'
 else:   
   print 'Ezra: sweep the living room and dining room, but only if needed'
   print 'Ezra: scrub the living room and dining room, but only if needed'
   print 'Eli : sweep the kitchen, but only if needed'
   print 'Eli : scrub the kitchen, but only if needed'
-
+  print 'Zech: clean the  living room and dining room; but only if needed; do them again as needed all day' 
+  
+print
+  
 # --------------------------------------------------------------------------------
 # This is the Bathroom chore
 
@@ -128,19 +131,35 @@ print
 
 # --------------------------------------------------------------------------------
 # This is the Laundry Chore
+
+print "----- Laundry Chore -----"
+
+ 
 if mod3 == 0:
   print 'Ezra: do the Light Laundry'
   print 'Ezra: do the Bath Towels Laundry'
+
 elif mod3 == 1:
   print 'Ezra: do the Pants Laundry'
   print 'Ezra: do the Rags Laundry'
 elif mod3 == 2:
   print 'Ezra: do the Dark Laundry'
   print 'Ezra: do the Kitchen Towels Laundry'
-
-# --------------------------------------------------------------------------------
+  
 print
 
+# --------------------------------------------------------------------------------
+# This is the trash chore
+
+print '----- Trash Chore -----'
+
+print 'Zech: do the trash chore' 
+print 'Eli : take the trash out'
+
+print
+
+#--------------------------------------------------------------------------------------------------------------
 
 
 
+print
