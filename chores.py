@@ -98,6 +98,7 @@ if dayofweek != Day.Sun:
   print 'Ezra: sweep the living room and dining room'
   print 'Ezra: scrub the living room and dining room as needed'
   print 'Eli : sweep the kitchen'
+  print 'Eli : check the back yard clean if needed'
   print 'Zech: clean the  living room and dining room; do them again as needed all day'
 else:   
   print 'Ezra: sweep the living room and dining room, but only if needed'
@@ -114,8 +115,13 @@ print
 print "----- Bathroom Chore -----"
 
 if dayofweek != Day.Sun: 
+ 
+ 
   print 'Eli : do the bathroom'
-else:   
+  print ' Eli: check the bathroom toilet paper and wipes and tishyous'
+else:
+   
+  
   print 'Eli : clean the bathroom sink and toliet, but only if needed'
    
 print 
