@@ -20,3 +20,4 @@ def draw():
   print "+" + "-"*WIDTH + "+"
   print
 
+
